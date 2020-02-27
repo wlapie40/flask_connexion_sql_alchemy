@@ -7,7 +7,14 @@ verify_ssl = true
 
 [packages]
 flask = "*"
-connexion = {extras = ["swagger-ui"],version = "*"}
+flask-sqlalchemy = "*"
+flask-marshmallow = "*"
+marshmallow-sqlalchemy = "*"
+marshmallow = "*"
 
 [requires]
 python_version = "3.8.0"
+
+[packages.connexion]
+extras = [ "swagger-ui",]
+version = "*"

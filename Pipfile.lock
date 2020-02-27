@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "645766719ede294c64c6bb14f452038fe83c37c0b1177cf5fa0876212b7bae35"
+            "sha256": "aa314d56f63e53bea2d3b38cfaf462a9d8ab76868c405a18af48c51baad233f2"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -66,6 +66,22 @@
             ],
             "index": "pypi",
             "version": "==1.1.1"
+        },
+        "flask-marshmallow": {
+            "hashes": [
+                "sha256:01520ef1851ccb64d4ffb33196cddff895cc1302ae1585bff1abf58684a8111a",
+                "sha256:28b969193958d9602ab5d6add6d280e0e360c8e373d3492c2f73b024ecd36374"
+            ],
+            "index": "pypi",
+            "version": "==0.11.0"
+        },
+        "flask-sqlalchemy": {
+            "hashes": [
+                "sha256:0078d8663330dc05a74bc72b3b6ddc441b9a744e2f56fe60af1a5bfc81334327",
+                "sha256:6974785d913666587949f7c2946f7001e4fa2cb2d19f4e69ead02e4b8f50b33d"
+            ],
+            "index": "pypi",
+            "version": "==2.4.1"
         },
         "idna": {
             "hashes": [
@@ -139,6 +155,22 @@
             ],
             "version": "==1.1.1"
         },
+        "marshmallow": {
+            "hashes": [
+                "sha256:3a94945a7461f2ab4df9576e51c97d66bee2c86155d3d3933fab752b31effab8",
+                "sha256:4b95c7735f93eb781dfdc4dded028108998cad759dda8dd9d4b5b4ac574cbf13"
+            ],
+            "index": "pypi",
+            "version": "==3.5.0"
+        },
+        "marshmallow-sqlalchemy": {
+            "hashes": [
+                "sha256:a370e247216e1a005277d92079d2f0d8d5b0a70fba68ee645730f6a1200991d1",
+                "sha256:f3155e87717e3a52def3a177b4022fd0500e71f626cbb0672adcb95588a99aa3"
+            ],
+            "index": "pypi",
+            "version": "==0.22.2"
+        },
         "openapi-spec-validator": {
             "hashes": [
                 "sha256:0caacd9829e9e3051e830165367bf58d436d9487b29a09220fa7edb9f47ff81b",
@@ -182,6 +214,12 @@
                 "sha256:8f3cd2e254d8f793e7f3d6d9df77b92252b52637291d0f0da013c76ea2724b6c"
             ],
             "version": "==1.14.0"
+        },
+        "sqlalchemy": {
+            "hashes": [
+                "sha256:64a7b71846db6423807e96820993fa12a03b89127d278290ca25c0b11ed7b4fb"
+            ],
+            "version": "==1.3.13"
         },
         "swagger-ui-bundle": {
             "hashes": [

@@ -2,19 +2,16 @@ from flask import (
     Flask,
     render_template
 )
-import connexion
+import config
 
-# # Create the application instance
-# app = Flask(__name__, template_folder="templates")
-
-# creating the application instance using Connexion rather than Flask
-app = connexion.App(__name__, specification_dir="./")
+# Get the application instance
+connex_app = config.connex_app
 
 # Read the swagger.yml file to configure the endpoints
-app.add_api("swagger.yml")
+connex_app.add_api("swagger.yml")
 
 # Create a URL route in our application for "/"
-@app.route('/')
+@connex_app.route("/")
 def home():
     """
     This function just responds to the browser ULR
@@ -25,4 +22,4 @@ def home():
     return render_template('home.html')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    connex_app.run(debug=True)
